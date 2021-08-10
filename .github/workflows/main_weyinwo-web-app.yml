@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
 
 defaults:
-      run:
-        working-directory: starter/ContosoDentistryScheduler
+  run:
+    working-directory: starter/ContosoDentistryScheduler
         
 jobs:
   build:

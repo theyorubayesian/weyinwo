@@ -9,13 +9,13 @@ on:
       - main
   workflow_dispatch:
 
+defaults:
+      run:
+        working-directory: starter/ContosoDentistryScheduler
+        
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: starter/ContosoDentistryScheduler
-
     steps:
     - uses: actions/checkout@v2
 
